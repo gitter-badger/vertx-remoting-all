@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+link.thingscloud.vertx.remoting.spring.boot.starter.config.VertxRemotingAutoConfiguration

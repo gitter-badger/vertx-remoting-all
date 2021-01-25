@@ -9,13 +9,18 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>vertx-remoting</artifactId>
-    <name>vertx-remoting-${project.version}</name>
+    <artifactId>vertx-remoting-spring-boot-starter-example</artifactId>
+    <name>vertx-remoting-spring-boot-starter-example-${project.version}</name>
 
     <dependencies>
         <dependency>
-            <groupId>io.vertx</groupId>
-            <artifactId>vertx-core</artifactId>
+            <groupId>link.thingscloud</groupId>
+            <artifactId>vertx-remoting-spring-boot-starter</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
     </dependencies>
 
